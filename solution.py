@@ -93,7 +93,7 @@ class CustomYOLO(YOLO):
         return optimizer, lr_scheduler
 
 
-model = CustomYOLO("best.pt")
+model = CustomYOLO("best_custom_m.pt")
 
 
 def non_maximum_suppression_area(boxes, scores, iou_threshold=0.15):
